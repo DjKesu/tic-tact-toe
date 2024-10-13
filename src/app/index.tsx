@@ -50,7 +50,7 @@ const Square: React.FC<SquareProps> = React.memo(({value, onClick, isWinning}) =
 const Home : React.FC = () => {
 
   const [board, setBoard] = useState<Board>(Array(9).fill(null));
-  const [xIsNext, setXIsNext] = useState<Boolean>(true); // X is true, and O is false
+  const [xIsNext, setXIsNext] = useState<boolean>(true); // X is true, and O is false
   const {winner, line} = useMemo(() => getWinnerAndLine(board), [board]);
 
   // display current player and final status
@@ -103,5 +103,6 @@ const Home : React.FC = () => {
   )
 };
 
+Home.displayName = "Home";
 
 export default Home;
