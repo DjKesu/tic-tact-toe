@@ -1,4 +1,3 @@
-'use client'
 // eslint-disable-next-line react/display-name
 import React, { useCallback, useMemo, useState } from "react"
 
