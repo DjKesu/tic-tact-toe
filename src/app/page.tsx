@@ -1,4 +1,5 @@
 // eslint-disable-next-line react/display-name
+'use client'
 import React, { useCallback, useMemo, useState } from "react"
 
 // Player type
