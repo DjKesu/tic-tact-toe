@@ -102,4 +102,7 @@ const Home : React.FC = () => {
   )
 };
 
+
+Home.displayName = 'Home';
+
 export default Home;
